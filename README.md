@@ -1,6 +1,6 @@
 # djangogirls
 ### git command 
-`git remote add drangogirls git@github.com:gavinchen/drangogirls.git `
+`git remote add drangogirls git@github.com:gavinchen/drangogirls.git ` 
 `git push -u origin master `
 
 ### install package for django
