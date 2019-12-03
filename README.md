@@ -1,4 +1,7 @@
 # djangogirls
+### git command 
+`git remote add drangogirls git@github.com:gavinchen/drangogirls.git `
+`git push -u origin master `
 
 ### install package for django
 `sudo apt-get -y install python3-mvenv python3-pip `
@@ -13,5 +16,5 @@
 `. venv/bin/activate `
 
 ### install django(1.8)
-`pip insrtall django==1.8 `
+`pip install django==1.8 `
 
