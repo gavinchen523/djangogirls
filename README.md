@@ -24,5 +24,16 @@
 `django-admin startproject mysite . ` 
 
 ### change setting 
-vi mysite/settings.py
+`vi mysite/settings.py ` 
+
+### setup database 
+`vi mysite/settings.py ` 
+`python manage.py migrate ` 
+
+### run mysite 
+`python manage.py runserver 0:8000 ` 
+
+#### open browser
+`http://localhost:8000 ` 
+
 
