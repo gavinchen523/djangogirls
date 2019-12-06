@@ -36,4 +36,50 @@
 #### open browser
 `http://localhost:8000 ` 
 
+### Django 模型(Model) 
+放在資料庫中的資料 
 
+#### 創建應用程序  
+`python manage.py startapp blog `  
+
+├── blog
+│   ├── admin.py
+│   ├── __init__.py
+│   ├── migrations
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── db.sqlite3
+├── manage.py
+├── mysite
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── README.md
+└── venv
+    ├── bin
+    ├── include
+    ├── lib
+    ├── lib64 -> lib
+    ├── pip-selfcheck.json
+    ├── pyvenv.cfg
+    └── share
+
+##### add apps to setting 
+`vi mysite/settings.py ` 
+
+
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'blog',
+)
+
+#### 創建一個博客的資料庫
+`vi blog/models.py ` 
