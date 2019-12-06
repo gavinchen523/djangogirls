@@ -83,3 +83,4 @@ INSTALLED_APPS = (
 
 #### 創建一個博客的資料庫
 `vi blog/models.py ` 
+`python manage.py makemigrations blog ` 
